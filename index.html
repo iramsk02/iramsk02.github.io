@@ -18,8 +18,10 @@
             <li class="link"><a href="#">projects</a></li>
             <li class="link"><a href="#">about</a></li>
             <li class="link"><a href="#">contact</a></li>
-            <li class="link"><a href="https://drive.google.com/file/d/1XzG8tRAqNU78LUSkEWzwPrYsAbJTfgPP/view?usp=drive_link">Download Resume</a></li>
-            
+            <li class="link"><a
+                    href="https://drive.google.com/file/d/1XzG8tRAqNU78LUSkEWzwPrYsAbJTfgPP/view?usp=drive_link">Download
+                    Resume</a></li>
+
 
 
         </ul>
@@ -242,7 +244,7 @@
                 </div>
             </div>
             <!-- <div class="card"> -->
-                <!-- <div class="card-body">
+            <!-- <div class="card-body">
                     <h1 class="card-title">Future</h1>
                     <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi
                         recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium
@@ -250,7 +252,7 @@
                 </div> -->
             <!-- </div> -->
             <!-- <div class="card"> -->
-                <!-- <div class="card-body">
+            <!-- <div class="card-body">
                     <h1 class="card-title">Future</h1>
                     <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi
                         recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium
@@ -258,7 +260,7 @@
                 </div> -->
             <!-- </div> -->
             <!-- <div class="card"> -->
-                <!-- <div class="card-body">
+            <!-- <div class="card-body">
                     <h1 class="card-title">Future</h1>
                     <p class="card-detail">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto sequi
                         recusandae laborum ipsam dignissimos nostrum vitae provident officia, consectetur ab accusantium
@@ -270,12 +272,23 @@
     </section>
     <!-- contact section -->
     <section class="contact-section ">
-        <form class="contact-form">
+        <!-- <form class="contact-form">
             <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
             <input type="text" name="email" id="email" autocomplete="off" placeholder="email">
             <textarea name="msg" id="msg" placeholder="message" autocomplete="off"></textarea>
             <button type="submit" class="form-submit-btn">contact</button>
+        </form> -->
+        <form class="contact-form" action="https://formsubmit.co/iramsabak@gmail.com" method="POST">
+            <input type="text" name="name" id="name" placeholder="name" required>
+            <input type="email" name="email" id="email" placeholder="email" required>
+            <textarea name="msg" id="msg" placeholder="message" required></textarea>
+
+            <input type="hidden" name="_captcha" value="false">
+            <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
+
+            <button type="submit" class="form-submit-btn">Contact</button>
         </form>
+
         <!-- map -->
         <div class="map">
             <iframe
